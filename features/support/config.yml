@@ -1,0 +1,6 @@
+app: /Users/stran/Library/Developer/Xcode/DerivedData/zucchini-start-gxjlunnhjqymflfablzlnbndttyt/Build/Products/Debug-iphonesimulator/zucchini-start.app
+template: '/Developer/Platforms/iPhoneOS.platform/Developer/Library/Instruments/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate'
+
+devices:
+  iOS Simulator:
+    screen: retina_ios5

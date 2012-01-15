@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4BA0F2C14C349D500246803 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BA0F2B14C349D500246803 /* UIKit.framework */; };
+		E4BA0F2E14C349D500246803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BA0F2D14C349D500246803 /* Foundation.framework */; };
+		E4BA0F3014C349D500246803 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BA0F2F14C349D500246803 /* CoreGraphics.framework */; };
+		E4BA0F3614C349D500246803 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4BA0F3414C349D500246803 /* InfoPlist.strings */; };
+		E4BA0F3814C349D500246803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA0F3714C349D500246803 /* main.m */; };
+		E4BA0F3C14C349D500246803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA0F3B14C349D500246803 /* AppDelegate.m */; };
+		E4BA0F4414C34A4B00246803 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA0F4314C34A4B00246803 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4BA0F2714C349D500246803 /* zucchini-start.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zucchini-start.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BA0F2B14C349D500246803 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4BA0F2D14C349D500246803 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4BA0F2F14C349D500246803 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4BA0F3314C349D500246803 /* zucchini-start-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zucchini-start-Info.plist"; sourceTree = "<group>"; };
+		E4BA0F3514C349D500246803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4BA0F3714C349D500246803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4BA0F3914C349D500246803 /* zucchini-start-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zucchini-start-Prefix.pch"; sourceTree = "<group>"; };
+		E4BA0F3A14C349D500246803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4BA0F3B14C349D500246803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4BA0F4214C34A4B00246803 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E4BA0F4314C34A4B00246803 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4BA0F2414C349D500246803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BA0F2C14C349D500246803 /* UIKit.framework in Frameworks */,
+				E4BA0F2E14C349D500246803 /* Foundation.framework in Frameworks */,
+				E4BA0F3014C349D500246803 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4BA0F1C14C349D500246803 = {
+			isa = PBXGroup;
+			children = (
+				E4BA0F3114C349D500246803 /* zucchini-start */,
+				E4BA0F2A14C349D500246803 /* Frameworks */,
+				E4BA0F2814C349D500246803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4BA0F2814C349D500246803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4BA0F2714C349D500246803 /* zucchini-start.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4BA0F2A14C349D500246803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4BA0F2B14C349D500246803 /* UIKit.framework */,
+				E4BA0F2D14C349D500246803 /* Foundation.framework */,
+				E4BA0F2F14C349D500246803 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4BA0F3114C349D500246803 /* zucchini-start */ = {
+			isa = PBXGroup;
+			children = (
+				E4BA0F3214C349D500246803 /* Supporting Files */,
+				E4BA0F3A14C349D500246803 /* AppDelegate.h */,
+				E4BA0F3B14C349D500246803 /* AppDelegate.m */,
+				E4BA0F4214C34A4B00246803 /* MainViewController.h */,
+				E4BA0F4314C34A4B00246803 /* MainViewController.m */,
+			);
+			path = "zucchini-start";
+			sourceTree = "<group>";
+		};
+		E4BA0F3214C349D500246803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4BA0F3314C349D500246803 /* zucchini-start-Info.plist */,
+				E4BA0F3414C349D500246803 /* InfoPlist.strings */,
+				E4BA0F3714C349D500246803 /* main.m */,
+				E4BA0F3914C349D500246803 /* zucchini-start-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4BA0F2614C349D500246803 /* zucchini-start */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BA0F3F14C349D500246803 /* Build configuration list for PBXNativeTarget "zucchini-start" */;
+			buildPhases = (
+				E4BA0F2314C349D500246803 /* Sources */,
+				E4BA0F2414C349D500246803 /* Frameworks */,
+				E4BA0F2514C349D500246803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zucchini-start";
+			productName = "zucchini-start";
+			productReference = E4BA0F2714C349D500246803 /* zucchini-start.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4BA0F1E14C349D500246803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E4BA0F2114C349D500246803 /* Build configuration list for PBXProject "zucchini-start" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4BA0F1C14C349D500246803;
+			productRefGroup = E4BA0F2814C349D500246803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4BA0F2614C349D500246803 /* zucchini-start */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4BA0F2514C349D500246803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BA0F3614C349D500246803 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4BA0F2314C349D500246803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BA0F3814C349D500246803 /* main.m in Sources */,
+				E4BA0F3C14C349D500246803 /* AppDelegate.m in Sources */,
+				E4BA0F4414C34A4B00246803 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4BA0F3414C349D500246803 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4BA0F3514C349D500246803 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4BA0F3D14C349D500246803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4BA0F3E14C349D500246803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4BA0F4014C349D500246803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zucchini-start/zucchini-start-Prefix.pch";
+				INFOPLIST_FILE = "zucchini-start/zucchini-start-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4BA0F4114C349D500246803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zucchini-start/zucchini-start-Prefix.pch";
+				INFOPLIST_FILE = "zucchini-start/zucchini-start-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4BA0F2114C349D500246803 /* Build configuration list for PBXProject "zucchini-start" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BA0F3D14C349D500246803 /* Debug */,
+				E4BA0F3E14C349D500246803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BA0F3F14C349D500246803 /* Build configuration list for PBXNativeTarget "zucchini-start" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BA0F4014C349D500246803 /* Debug */,
+				E4BA0F4114C349D500246803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4BA0F1E14C349D500246803 /* Project object */;
+}
